@@ -1,0 +1,9 @@
+h2{
+    letter-spacing :  3.5px;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+label{
+    cursor: pointer;
+}
