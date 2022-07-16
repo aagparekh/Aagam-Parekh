@@ -10,7 +10,8 @@ function Header() {
               <a href="https://bit.ly/3AFymBc"><i class="fa-brands fa-hackerrank fa-3x text-success mx-4"></i></a>
               <a href="https://github.com/aagparekh"><i class="fa-brands fa-github fa-3x"></i></a>
               </div>
-              <button type="button" class="btn btn-sm btn-outline-light col-lg-9 mt-3 fw-bolder">Get Resume</button>
+              {/* <button type="button" class="btn btn-sm btn-outline-light col-lg-9 mt-3 fw-bolder">Get Resume</button> */}
+              <a class="btn btn-sm btn-outline-light col-lg-9 mt-3 fw-bolder" href="https://bit.ly/3OdbdJu" role="button">Get Resume</a>
             </div>
         </div>
     )
