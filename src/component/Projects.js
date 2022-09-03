@@ -6,12 +6,11 @@ import inotebook from './inotebook.jpg'
 import hospital from './hospital.jpg'
 function Projects() {
   return (
-    <div id='projects' style={{ height: '780px' }}>
+    <div id='projects'>
       <h2> 03 PROJECTS/WORKS</h2>
       <div className="container my-4">
         <div className="row justify-content-center">
-          <div className="col-lg-8 col-md-6">
-
+          <div className="col-lg-8 col-md-8">
             <div id="carouselExampleControls" className="carousel slide carousel-dark" data-ride="carousel" style={{ boxShadow: '9px 7px 10px rgba(128, 128, 128, 0.192)' }}>
               <div className="carousel-indicators carousel-dark">
                 <button type="button" data-target="#carouselExampleControls" data-slide-to="0" className="active mx-1" aria-current="true" aria-label="Slide 1"></button>
@@ -20,55 +19,73 @@ function Projects() {
                 <button type="button" data-target="#carouselExampleControls" data-slide-to="3" className="mx-2" aria-label="Slide 4"></button>
                 <button type="button" data-target="#carouselExampleControls" data-slide-to="4" className="mx-2" aria-label="Slide 5"></button>
               </div>
-              <div className="carousel-inner">
+              <div className="carousel-inner" >
                 <div className="carousel-item active" data-interval="10000">
+                  <span class="position-absolute translate-middle roundd-pill badge bg-success d-none d-lg-block" style={{ left: "92%", bottom: "28%", zIndex: "11" }}>
+                    <i class="fa-brands fa-html5 fa-2x p-1"></i> <i class="fa-brands fa-css3-alt fa-2x p-1"></i> <i class="fa-brands fa-square-js fa-2x p-1"></i>
+                    <i class="fa-brands fa-php fa-2x  p-1"></i>
+                  </span>
                   <div className="card card-sm ">
+
                     <img src={slice} className="img-fluid rounded-start" alt="..." />
                     <div className="card-body justify-content-center p-3">
+
                       <h5 className="card-title"><strong>Slice: Food Delivery App</strong></h5>
                       <strong>October 2020</strong>
                       <p className="card-text">Slice is a group project led by me.
                         As the name suggests it's a food website built completely on <b> HTML, styled with CSS, and uses javascript as a
-                        browser language along with the PHP for backend language to maintain client databases</b>.
+                          browser language along with the PHP for backend language to maintain client databases</b>.
                         It's completely made on VS Code. This website is a very basic food website with a basic <b> search feature,
-                        order feature, and bill feature</b>. So the person has to choose from the available dishes and the bill will
+                          order feature, and bill feature</b>. So the person has to choose from the available dishes and the bill will
                         be provided at the end. I would like to work some more on the cart feature and multiple user capability.</p>
                       <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item" data-interval="10000">
+                <span class="position-absolute translate-middle roundd-pill badge bg-success d-none d-lg-block" style={{ left: "94%", bottom: "20%", zIndex: "11" }}>
+                    <i class="fa-brands fa-html5 fa-2x p-1"></i> <i class="fa-brands fa-css3-alt fa-2x p-1"></i> <i class="fa-brands fa-bootstrap fa-2x p-1"></i>
+                    
+                  </span>
                   <div className="card card-sm">
                     <img src={education} className="img-fluid rounded-start" alt="..." />
                     <div className="card-body justify-content-center p-3">
                       <h5 className="card-title"><strong>Education Website</strong></h5>
                       <strong>June 2021</strong>
-                      <p className="card-text mb-3">This learning website is no different from the learning website available on the internet. 
-                      It's just the frontend work that I have done <b>using HTML and CSS framework bootstrap. </b>
-                      It includes various sections such as <b>the online course section, Review section, Contact section, and many more</b>. 
-                      I like to take one step ahead and add the backend to maintain databases.</p>
-                      
+                      <p className="card-text mb-3">This learning website is no different from the learning website available on the internet.
+                        It's just the frontend work that I have done <b>using HTML and CSS framework bootstrap. </b>
+                        It includes various sections such as <b>the online course section, Review section, Contact section, and many more</b>.
+                        I like to take one step ahead and add the backend to maintain databases.</p>
+
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item" data-interval="10000">
+                <span class="position-absolute translate-middle roundd-pill badge bg-success d-none d-lg-block" style={{left: "90%", bottom: "30%", zIndex: "11" }}>
+                    <i class="fa-brands fa-html5 fa-2x p-1"></i> <i class="fa-brands fa-bootstrap p-1 fa-2x"></i> <i class="fa-brands fa-angular p-1 fa-2x"></i><i class="fa-brands fa-node fa-2x p-1"></i>
+                    <i class="fa-solid fa-leaf fa-2x p-1"></i>
+                  </span>
                   <div className="card card-sm ">
                     <img src={apscamp} className="img-fluid rounded-start" height="1920px" width="892px" alt="..." />
                     <div className="card-body justify-content-center p-3">
                       <h5 className="card-title"><strong>APS Camps: Tourism App</strong></h5>
                       <strong>March 2022</strong>
-                      <p className="card-text">APS Camps is another group project led by me. 
-                      This app's basic idea is to book camps, treks, and backpacking places for adventures and fun. 
-                      <b>This is a single-page application</b> as it's entirely built on <b>AngularJs with bootstrap as a CSS framework
-                      , NodeJs, and MongoDB as a server-side language to maintain and store user data</b>. We also provide security
-                       to our website by doing<b> hashing to the passwords and AngularJS Validation</b>. The app has three categories Camps, Trekking, and 
-                       Backpacking. The user can book any of them and get the receipt at the end of the booking. As the app has 
-                       static booking and can't support multi-user features so need to work on it more. </p>
+                      <p className="card-text">APS Camps is another group project led by me.
+                        This app's basic idea is to book camps, treks, and backpacking places for adventures and fun.
+                        <b>This is a single-page application</b> as it's entirely built on <b>AngularJs with bootstrap as a CSS framework
+                          , NodeJs, and MongoDB as a server-side language to maintain and store user data</b>. We also provide security
+                        to our website by doing<b> hashing to the passwords and AngularJS Validation</b>. The app has three categories Camps, Trekking, and
+                        Backpacking. The user can book any of them and get the receipt at the end of the booking. As the app has
+                        static booking and can't support multi-user features so need to work on it more. </p>
                       <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item" data interval="10000">
+                <span class="position-absolute translate-middle roundd-pill badge bg-success d-none d-lg-block" style={{left: "90%", bottom: "33%", zIndex: "11" }}>
+                <i class="fa-brands fa-html5 fa-2x p-1"></i> <i class="fa-brands fa-bootstrap p-1 fa-2x"></i> <i class="fa-brands fa-react p-1 fa-2x"></i><i class="fa-brands fa-node fa-2x p-1"></i>
+                    <i class="fa-solid fa-leaf fa-2x p-1"></i>
+                  </span>
                   <div className="card card-sm">
                     <img src={inotebook} className="img-fluid rounded-start" alt="..." />
                     <div className="card-body justify-content-center p-3">
@@ -80,6 +97,9 @@ function Projects() {
                   </div>
                 </div>
                 <div className="carousel-item" data-interval="10000">
+                <span class="position-absolute translate-middle roundd-pill badge bg-success d-none d-lg-block" style={{ left: "96%", bottom: "19%", zIndex: "11" }}>
+                <i class="fa-brands fa-python fa-2x p-1"></i> <i class="fa-solid fa-database fa-2x p-1"></i>
+                  </span>
                   <div className="card card-sm">
                     <img src={hospital} className="img-fluid rounded-start" alt="..." />
                     <div className="card-body justify-content-center p-3">

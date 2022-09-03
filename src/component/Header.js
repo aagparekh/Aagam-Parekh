@@ -11,7 +11,7 @@ function Header() {
               <a href="https://github.com/aagparekh"><i class="fa-brands fa-github fa-3x"></i></a>
               </div>
               {/* <button type="button" class="btn btn-sm btn-outline-light col-lg-9 mt-3 fw-bolder">Get Resume</button> */}
-              <a class="btn btn-sm btn-outline-light col-lg-9 mt-3 fw-bolder" href="https://bit.ly/3OdbdJu" role="button">Get Resume</a>
+              <a class="btn btn-sm btn-outline-light col-lg-9 mt-3 fw-bolder" href="https://bit.ly/3B8gzCy" role="button">Get Resume</a>
             </div>
         </div>
     )
