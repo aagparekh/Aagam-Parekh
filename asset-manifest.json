@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aagam-Parekh/static/css/main.1eaedb0c.css",
-    "main.js": "/Aagam-Parekh/static/js/main.b2326203.js",
+    "main.js": "/Aagam-Parekh/static/js/main.72324c07.js",
     "static/media/nlp.png": "/Aagam-Parekh/static/media/nlp.f3730d1be52bb76a4e85.png",
     "static/media/apscamp.jpg": "/Aagam-Parekh/static/media/apscamp.1900b50b3afdfa66a8da.jpg",
     "static/media/slice.jpg": "/Aagam-Parekh/static/media/slice.a43250eac6ffba6a8af6.jpg",
@@ -22,10 +22,10 @@
     "static/media/bot.jpg": "/Aagam-Parekh/static/media/bot.2443393975522d1794ee.jpg",
     "index.html": "/Aagam-Parekh/index.html",
     "main.1eaedb0c.css.map": "/Aagam-Parekh/static/css/main.1eaedb0c.css.map",
-    "main.b2326203.js.map": "/Aagam-Parekh/static/js/main.b2326203.js.map"
+    "main.72324c07.js.map": "/Aagam-Parekh/static/js/main.72324c07.js.map"
   },
   "entrypoints": [
     "static/css/main.1eaedb0c.css",
-    "static/js/main.b2326203.js"
+    "static/js/main.72324c07.js"
   ]
 }
