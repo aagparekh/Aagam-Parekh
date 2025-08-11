@@ -35,7 +35,7 @@ function Projects() {
 
               <div class="card-stats">
                 ✨ 3 Projects<br />
-                ⚙️ React, Figma, Bootstrap
+                ⚙️ HTML5, CSS3, Javascript, Typescript, React, Angular, Bootstrap, Tailwind, Figma
               </div>
 
               <div class="hover-reveal mt-2">View Projects →</div>
@@ -49,7 +49,7 @@ function Projects() {
               <p class="card-text">Bridging frontend elegance with backend logic.</p>
               <div class="card-stats">
                 ✨ 3 Projects<br />
-                ⚙️ React, Figma, Bootstrap
+                ⚙️ Javascript, Typescript, React, React Native, Angular.io, Nodesjs, Express.js, MongoDB, MYSQL 
               </div>
 
               <div class="hover-reveal mt-2">View Projects →</div>
@@ -63,7 +63,7 @@ function Projects() {
               <p class="card-text">Solving problems using intelligence & data.</p>
               <div class="card-stats">
                 ✨ 2 Projects<br />
-                ⚙️ React, Figma, Bootstrap
+                ⚙️ Python, Pandas, Numpy, Machine Learning, Deep Learning, Gen AI, NLP, Neo4j, Web scraping
               </div>
 
               <div class="hover-reveal mt-2">View Projects →</div>
