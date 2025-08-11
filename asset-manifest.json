@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Aagam-Parekh/static/css/main.4834cd37.css",
-    "main.js": "/Aagam-Parekh/static/js/main.ffe19491.js",
+    "main.css": "/Aagam-Parekh/static/css/main.1eaedb0c.css",
+    "main.js": "/Aagam-Parekh/static/js/main.b2326203.js",
+    "static/media/nlp.png": "/Aagam-Parekh/static/media/nlp.f3730d1be52bb76a4e85.png",
     "static/media/apscamp.jpg": "/Aagam-Parekh/static/media/apscamp.1900b50b3afdfa66a8da.jpg",
     "static/media/slice.jpg": "/Aagam-Parekh/static/media/slice.a43250eac6ffba6a8af6.jpg",
     "static/media/contact.jpg": "/Aagam-Parekh/static/media/contact.1221d0a10140366b4cf1.jpg",
@@ -14,15 +15,17 @@
     "static/media/cricket.jpg": "/Aagam-Parekh/static/media/cricket.36bb0286f054a74844c9.jpg",
     "static/media/tunnel.jpg": "/Aagam-Parekh/static/media/tunnel.e247a7653b7ef1111795.jpg",
     "static/media/team.jpg": "/Aagam-Parekh/static/media/team.e37d7fd45c4d790ff2e3.jpg",
+    "static/media/inchat.png": "/Aagam-Parekh/static/media/inchat.e423bc3cdee741ace881.png",
     "static/media/learn.jpg": "/Aagam-Parekh/static/media/learn.f3dbde577b0a682c9b1e.jpg",
     "static/media/mpstmeback.jpg": "/Aagam-Parekh/static/media/mpstmeback.cdf9892381b109122088.jpg",
     "static/media/hospital.jpg": "/Aagam-Parekh/static/media/hospital.cb2377f07f24c7da46cc.jpg",
+    "static/media/bot.jpg": "/Aagam-Parekh/static/media/bot.2443393975522d1794ee.jpg",
     "index.html": "/Aagam-Parekh/index.html",
-    "main.4834cd37.css.map": "/Aagam-Parekh/static/css/main.4834cd37.css.map",
-    "main.ffe19491.js.map": "/Aagam-Parekh/static/js/main.ffe19491.js.map"
+    "main.1eaedb0c.css.map": "/Aagam-Parekh/static/css/main.1eaedb0c.css.map",
+    "main.b2326203.js.map": "/Aagam-Parekh/static/js/main.b2326203.js.map"
   },
   "entrypoints": [
-    "static/css/main.4834cd37.css",
-    "static/js/main.ffe19491.js"
+    "static/css/main.1eaedb0c.css",
+    "static/js/main.b2326203.js"
   ]
 }
