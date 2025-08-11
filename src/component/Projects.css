@@ -1,0 +1,46 @@
+ .custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    color: #333;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .custom-card:hover {
+    transform: scale(1.03);
+  }
+
+  .card-category {
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+  }
+
+  .card-stats {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+
+  .hover-reveal {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-weight: 500;
+    color: #000;
+  }
+
+  .custom-card:hover .hover-reveal {
+    opacity: 1;
+  }
+
+  #frontend:hover{
+    box-shadow: 0 10px 20px rgba(252, 182, 159, 0.6);
+  }
+
+  #fullstack:hover{
+    box-shadow: 0 10px 20px rgba(150, 230, 161, 0.4)
+  }
+
+  #aiworks:hover{
+    box-shadow: 0 10px 20px rgba(196, 113, 245, 0.5)
+  }

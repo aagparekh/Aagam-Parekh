@@ -18,18 +18,18 @@ function Navbar(props) {
         <li className="nav-item">
           <a className={`nav-link ${location.hash==="#about"?"active":""}`}  aria-current="page" href="#about">About Me</a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <a className={`nav-link ${location.hash==="#education"?"active":""}`} aria-current="page" href="#education">Education</a>
-        </li>
+        </li> */}
         <li className="nav-item">
         <a className={`nav-link ${location.hash==="#projects"?"active":""}`} aria-current="page" href="#projects">Projects</a>
         </li>
         <li className="nav-item">
         <a className={`nav-link ${location.hash==="#skills"?"active":""}`} aria-current="page" href="#skills">Skills</a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <a className={`nav-link ${location.hash==="#interests"?"active":""}`} aria-current="page" href="#interests">Interests</a>
-        </li>
+        </li> */}
         <li className="nav-item">
         <a className={`nav-link ${location.hash==="#contact"?"active":""}`} aria-current="page" href="#contact">Find Me</a>
         </li>

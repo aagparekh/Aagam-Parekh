@@ -17,10 +17,10 @@ function App() {
     <Navbar/>
     <Header/>
     <About/>
-    <Education/>
+    {/* <Education/> */}
     <Projects/>
     <Skills/>
-    <Interests/>
+    {/* <Interests/> */}
     <Contacts/>
     </Router>
   );

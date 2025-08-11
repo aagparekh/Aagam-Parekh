@@ -1,17 +1,84 @@
-import React from 'react'
+import React, { useState } from 'react'
 import education from './education.jpg'
 import slice from './slice.jpg'
 import apscamp from './apscamp.jpg'
 import inotebook from './inotebook.jpg'
 import hospital from './hospital.jpg'
+import './Projects.css';
+import ProjectDrawer from "./ProjectDrawer";
+
+
 function Projects() {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState("");
+
+  const handleCardClick = (category) => {
+    setSelectedCategory(category);
+    setDrawerOpen(true);
+  };
+
+  const closeDrawer = () => {
+    setDrawerOpen(false);
+  };
+
   return (
     <div id='projects'>
-      <h2> 03 PROJECTS/WORKS</h2>
+      <h2> 03 PROJECTS</h2>
       <div className="container my-4">
         <div className="row justify-content-center">
-          <div className="col-lg-8 col-md-8">
-            <div id="carouselExampleControls" className="carousel slide carousel-dark" data-ride="carousel" style={{ boxShadow: '9px 7px 10px rgba(128, 128, 128, 0.192)' }}>
+
+          <div class="card custom-card col-lg-3 me-3" id='frontend' onClick={() => handleCardClick("Frontend")} style={{ background: "linear-gradient(135deg, #ffecd2, #fcb69f)" }}>
+            <div class="card-body">
+              <h5 class="card-category" style={{color: "#ff5722"}}>Frontend Works</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Sleek UI. Solid UX.</h6>
+              <p class="card-text">Building intuitive, responsive, and visually polished interfaces.</p>
+
+              <div class="card-stats">
+                ✨ 3 Projects<br />
+                ⚙️ React, Figma, Bootstrap
+              </div>
+
+              <div class="hover-reveal mt-2">View Projects →</div>
+            </div>
+          </div>
+
+          <div class="card custom-card col-lg-3 me-3" id='fullstack' onClick={() => handleCardClick("Full-Stack")} style={{ background: "linear-gradient(135deg, #d4fc79, #89e595fd)" }}>
+            <div class="card-body">
+              <h5 class="card-category" style={{color: "#388e3c"}}>Full-Stack Works</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Code meets deployment.</h6>
+              <p class="card-text">Bridging frontend elegance with backend logic.</p>
+              <div class="card-stats">
+                ✨ 3 Projects<br />
+                ⚙️ React, Figma, Bootstrap
+              </div>
+
+              <div class="hover-reveal mt-2">View Projects →</div>
+            </div>
+          </div>
+
+          <div class="card col-lg-3 custom-card" id='aiworks' onClick={() => handleCardClick("AI/ML")} style={{ background: "linear-gradient(135deg, #cd8ef29f, #fa71cd)" }}>
+            <div class="card-body">
+              <h5 class="card-category" style={{color: "#6a1b9a"}}>AI / ML Works</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">From predictions to precision.</h6>
+              <p class="card-text">Solving problems using intelligence & data.</p>
+              <div class="card-stats">
+                ✨ 2 Projects<br />
+                ⚙️ React, Figma, Bootstrap
+              </div>
+
+              <div class="hover-reveal mt-2">View Projects →</div>
+            </div>
+          </div>
+          <ProjectDrawer isOpen={drawerOpen} onClose={closeDrawer} category={selectedCategory} />
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Projects
+{/* <div id="carouselExampleControls" className="carousel slide carousel-dark" data-ride="carousel" style={{ boxShadow: '9px 7px 10px rgba(128, 128, 128, 0.192)' }}>
               <div className="carousel-indicators carousel-dark">
                 <button type="button" data-target="#carouselExampleControls" data-slide-to="0" className="active mx-1" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-target="#carouselExampleControls" data-slide-to="1" className="mx-2" aria-label="Slide 2"></button>
@@ -110,12 +177,4 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export default Projects
+            </div> */}

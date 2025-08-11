@@ -1,0 +1,58 @@
+.drawer {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: bottom 0.4s ease-in-out;
+  z-index: 999;
+  padding: 2rem;
+}
+
+.drawer.open {
+  bottom: 0;
+}
+
+.drawer-content {
+  max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.drawer-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.project-card {
+  border-left: 4px solid transparent;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  border-left: 4px solid #aaa; /* accent line on hover */
+  
+}
+
