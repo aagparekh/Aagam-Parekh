@@ -56,3 +56,32 @@
   
 }
 
+.btn-frontend {
+  color: #ff5722;
+  border-color: #ff5722;
+}
+
+.btn-frontend:hover {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.btn-fullstack {
+  color: #388e3c;
+  border-color: #388e3c;
+}
+
+.btn-fullstack:hover {
+  background-color: #388e3c;
+  color: #fff;
+}
+
+.btn-aiml {
+  color: #6a1b9a;
+  border-color: #6a1b9a;
+}
+
+.btn-aiml:hover {
+  background-color: #6a1b9a;
+  color: #fff;
+}

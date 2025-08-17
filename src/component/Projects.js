@@ -33,8 +33,8 @@ function Projects() {
               <h6 class="card-subtitle mb-2 text-body-secondary">Sleek UI. Solid UX.</h6>
               <p class="card-text">Building intuitive, responsive, and visually polished interfaces.</p>
 
-              <div class="card-stats">
-                ✨ 3 Projects<br />
+              <div class="card-stats fw-semibold">
+                ✨ 4 Projects<br />
                 ⚙️ HTML5, CSS3, Javascript, Typescript, React, Angular, Bootstrap, Tailwind, Figma
               </div>
 
@@ -47,23 +47,23 @@ function Projects() {
               <h5 class="card-category" style={{color: "#388e3c"}}>Full-Stack Works</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">Code meets deployment.</h6>
               <p class="card-text">Bridging frontend elegance with backend logic.</p>
-              <div class="card-stats">
+              <div class="card-stats fw-semibold">
                 ✨ 3 Projects<br />
-                ⚙️ Javascript, Typescript, React, React Native, Angular.io, Nodesjs, Express.js, MongoDB, MYSQL 
+                ⚙️ Javascript, Typescript, React, React Native, NodeJs, ExpressJs, MongoDB, MYSQL 
               </div>
 
               <div class="hover-reveal mt-2">View Projects →</div>
             </div>
           </div>
 
-          <div class="card col-lg-3 custom-card" id='aiworks' onClick={() => handleCardClick("AI/ML")} style={{ background: "linear-gradient(135deg, #cd8ef29f, #fa71cd)" }}>
+          <div class="card col-lg-3 custom-card" id='aiworks' onClick={() => handleCardClick("AI / ML")} style={{ background: "linear-gradient(135deg, #cd8ef29f, #fa71cd)" }}>
             <div class="card-body">
               <h5 class="card-category" style={{color: "#6a1b9a"}}>AI / ML Works</h5>
               <h6 class="card-subtitle mb-2 text-body-secondary">From predictions to precision.</h6>
               <p class="card-text">Solving problems using intelligence & data.</p>
-              <div class="card-stats">
+              <div class="card-stats fw-semibold">
                 ✨ 2 Projects<br />
-                ⚙️ Python, Pandas, Numpy, Machine Learning, Deep Learning, Gen AI, NLP, Neo4j, Web scraping
+                ⚙️ Python, Machine Learning, Deep Learning, Gen AI, NLP, Neo4j, Web scraping
               </div>
 
               <div class="hover-reveal mt-2">View Projects →</div>
